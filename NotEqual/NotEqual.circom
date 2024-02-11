@@ -9,8 +9,8 @@ pragma circom 2.1.4;
 // HINT:NEGATION
 
 template NotEqual() {
-
-    // Your code here.
+    signal input a[2];
+    signal output c;
    
 }
 
