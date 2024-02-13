@@ -10,8 +10,7 @@ pragma circom 2.1.4;
 
 template NotEqual() {
     signal input a[2];
-    signal output c;
-   
+    signal output c <-- (-a[0] + a[1]) == 0? 0: 1;
 }
 
 component main = NotEqual();
